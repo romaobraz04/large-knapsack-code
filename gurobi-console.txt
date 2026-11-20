@@ -14,7 +14,6 @@ Solving instance2.txt with Gurobi (900-second limit)...
 Gurobi TIME_LIMIT on instance2.txt (optimization 900.159 s, total 1064.472 s).
 instance2.txt,Gurobi,,979694,900.159000,,TIME_LIMIT
 
-[Instance 3 transcribed from the console screenshot.]
 PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code>
 Java 21.0.12.1
 Gurobi 13.0.3

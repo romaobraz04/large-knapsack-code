@@ -9,6 +9,7 @@ instances/
 .idea/
 .venv/
 legacy-python-knapsack/
+large-knapsack-code.iml
 
 
 ### Eclipse ###
