@@ -5,6 +5,11 @@ out/
 .kotlin
 Assignment1.pdf
 instances/
+.ai/
+.idea/
+.venv/
+legacy-python-knapsack/
+
 
 ### Eclipse ###
 .apt_generated

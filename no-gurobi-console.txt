@@ -1,0 +1,90 @@
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  instances\instance1.txt  
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance1.txt,DP,,1003584,7.061489,0.000000,OPTIMAL
+instance1.txt,Greedy,,967560,0.007648,3.589535,FEASIBLE
+instance1.txt,FPTAS,10.0,987886,0.003247,1.564194,FEASIBLE
+instance1.txt,FPTAS,1.0,997979,0.008079,0.558498,FEASIBLE
+instance1.txt,FPTAS,0.1,1000917,0.053327,0.265748,FEASIBLE
+instance1.txt,FPTAS,0.01,1003552,0.853673,0.003189,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance2.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance2.txt,DP,,979694,6.849847,0.000000,OPTIMAL
+instance2.txt,Greedy,,976219,0.004735,0.354703,FEASIBLE
+instance2.txt,FPTAS,10.0,969183,0.001956,1.072886,FEASIBLE
+instance2.txt,FPTAS,1.0,969183,0.007623,1.072886,FEASIBLE
+instance2.txt,FPTAS,0.1,972373,0.057804,0.747274,FEASIBLE
+instance2.txt,FPTAS,0.01,979603,0.602761,0.009289,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance3.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance3.txt,DP,,977503,6.850792,0.000000,OPTIMAL
+instance3.txt,Greedy,,975108,0.004073,0.245012,FEASIBLE
+instance3.txt,FPTAS,10.0,969262,0.005175,0.843066,FEASIBLE
+instance3.txt,FPTAS,1.0,969262,0.006518,0.843066,FEASIBLE
+instance3.txt,FPTAS,0.1,972199,0.052685,0.542607,FEASIBLE
+instance3.txt,FPTAS,0.01,977453,0.588513,0.005115,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance4.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance4.txt,DP,,978543,2.783140,0.000000,OPTIMAL
+instance4.txt,Greedy,,976063,0.003887,0.253438,FEASIBLE
+instance4.txt,FPTAS,10.0,969549,0.001236,0.919122,FEASIBLE
+instance4.txt,FPTAS,1.0,969549,0.005227,0.919122,FEASIBLE
+instance4.txt,FPTAS,0.1,974128,0.026937,0.451181,FEASIBLE
+instance4.txt,FPTAS,0.01,978481,0.245711,0.006336,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance5.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance5.txt,DP,,999885,4.189000,0.000000,OPTIMAL
+instance5.txt,Greedy,,985420,0.006000,1.446666,FEASIBLE
+instance5.txt,FPTAS,10.0,987788,0.001364,1.209839,FEASIBLE
+instance5.txt,FPTAS,1.0,993891,0.005186,0.599469,FEASIBLE
+instance5.txt,FPTAS,0.1,994061,0.012249,0.582467,FEASIBLE
+instance5.txt,FPTAS,0.01,999776,0.261451,0.010901,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance6.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance6.txt,DP,,1004379,5.002112,0.000000,OPTIMAL
+instance6.txt,Greedy,,992183,0.005854,1.214283,FEASIBLE
+instance6.txt,FPTAS,10.0,999327,0.001733,0.502997,FEASIBLE
+instance6.txt,FPTAS,1.0,1000365,0.004886,0.399650,FEASIBLE
+instance6.txt,FPTAS,0.1,1002408,0.035084,0.196241,FEASIBLE
+instance6.txt,FPTAS,0.01,1004280,0.376140,0.009857,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance7.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance7.txt,DP,,51223,1.477088,0.000000,OPTIMAL
+instance7.txt,Greedy,,49364,0.004804,3.629229,FEASIBLE
+instance7.txt,FPTAS,10.0,51223,0.011289,0.000000,FEASIBLE
+instance7.txt,FPTAS,1.0,51223,0.069652,0.000000,FEASIBLE
+instance7.txt,FPTAS,0.1,51223,0.283454,0.000000,FEASIBLE
+instance7.txt,FPTAS,0.01,51223,0.293083,0.000000,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance8.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance8.txt,DP,,282229,4.875300,0.000000,OPTIMAL
+instance8.txt,Greedy,,280748,0.005282,0.524751,FEASIBLE
+instance8.txt,FPTAS,10.0,282167,0.020598,0.021968,FEASIBLE
+instance8.txt,FPTAS,1.0,282229,0.372609,0.000000,FEASIBLE
+instance8.txt,FPTAS,0.1,282229,2.313148,0.000000,FEASIBLE
+instance8.txt,FPTAS,0.01,282229,1.751951,0.000000,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance9.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance9.txt,DP,,151648,5.986289,0.000000,OPTIMAL
+instance9.txt,Greedy,,151281,0.004787,0.242008,FEASIBLE
+instance9.txt,FPTAS,10.0,151648,0.015947,0.000000,FEASIBLE
+instance9.txt,FPTAS,1.0,151648,0.332573,0.000000,FEASIBLE
+instance9.txt,FPTAS,0.1,151648,1.479582,0.000000,FEASIBLE
+instance9.txt,FPTAS,0.01,151648,1.102898,0.000000,FEASIBLE
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi  .\instances\instance10.txt
+Java 21.0.12.1
+instance,method,epsilon,value,seconds,gap_percent,status
+instance10.txt,DP,,17013,0.098126,0.000000,OPTIMAL
+instance10.txt,Greedy,,14460,0.005020,15.006172,FEASIBLE
+instance10.txt,FPTAS,10.0,16920,0.003652,0.546641,FEASIBLE
+instance10.txt,FPTAS,1.0,16995,0.008470,0.105801,FEASIBLE
+instance10.txt,FPTAS,0.1,17013,0.056842,0.000000,FEASIBLE
+instance10.txt,FPTAS,0.01,17013,0.068755,0.000000,FEASIBLE

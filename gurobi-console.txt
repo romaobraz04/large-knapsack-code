@@ -1,0 +1,80 @@
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance1.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance1.txt with Gurobi (900-second limit)...
+Gurobi TIME_LIMIT on instance1.txt (optimization 900.687 s, total 1089.548 s).
+instance1.txt,Gurobi,,1003524,900.687000,,TIME_LIMIT
+
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance2.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance2.txt with Gurobi (900-second limit)...
+Gurobi TIME_LIMIT on instance2.txt (optimization 900.159 s, total 1064.472 s).
+instance2.txt,Gurobi,,979694,900.159000,,TIME_LIMIT
+
+[Instance 3 transcribed from the console screenshot.]
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code>
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance3.txt with Gurobi (900-second limit)...
+Gurobi TIME_LIMIT on instance3.txt (optimization 900.111 s, total 1467.565 s).
+instance3.txt,Gurobi,,977503,900.111000,,TIME_LIMIT
+
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance4.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance4.txt with Gurobi (900-second limit)...
+Gurobi OPTIMAL on instance4.txt (optimization 1.678 s, total 1.766 s).
+instance4.txt,Gurobi,,978543,1.678000,,OPTIMAL
+
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance5.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance5.txt with Gurobi (900-second limit)...
+Gurobi OPTIMAL on instance5.txt (optimization 0.855 s, total 0.916 s).
+instance5.txt,Gurobi,,999885,0.855000,,OPTIMAL
+
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance6.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance6.txt with Gurobi (900-second limit)...
+Gurobi OPTIMAL on instance6.txt (optimization 0.238 s, total 0.311 s).
+instance6.txt,Gurobi,,1004379,0.238000,,OPTIMAL
+
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance7.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance7.txt with Gurobi (900-second limit)...
+Gurobi OPTIMAL on instance7.txt (optimization 0.022 s, total 0.092 s).
+instance7.txt,Gurobi,,51223,0.022000,,OPTIMAL
+
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance8.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance8.txt with Gurobi (900-second limit)...
+Gurobi OPTIMAL on instance8.txt (optimization 0.026 s, total 0.103 s).
+instance8.txt,Gurobi,,282229,0.026000,,OPTIMAL
+
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance9.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance9.txt with Gurobi (900-second limit)...
+Gurobi OPTIMAL on instance9.txt (optimization 0.029 s, total 0.091 s).
+instance9.txt,Gurobi,,151648,0.029000,,OPTIMAL
+
+PS C:\Users\rnbra\Desktop\master\block 2\algo design\assignment 1\large-knapsack-code> java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance10.txt
+Java 21.0.12.1
+Gurobi 13.0.3
+instance,method,epsilon,value,seconds,gap_percent,status
+Solving instance10.txt with Gurobi (900-second limit)...
+Gurobi OPTIMAL on instance10.txt (optimization 0.166 s, total 0.229 s).
+instance10.txt,Gurobi,,17013,0.166000,,OPTIMAL

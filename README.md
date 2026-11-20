@@ -9,13 +9,16 @@ java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main
 
 The default run reads `instances/instance1.txt` through `instances/instance10.txt`. For each instance it runs Gurobi, DP, greedy and FPTAS in that order. To use a single instance, append its path after `Main`.
 
-To run the binary model directly with Gurobi on instance 1 and save its result, use the following command. Omit the instance path to run Gurobi on all ten files.
+To save the console results for one instance, redirect each mode to its own CSV file.
 
 ```powershell
-java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance1.txt > gurobi-results.csv
+java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --gurobi-only instances\instance1.txt > gurobi-instance1.csv
+java -cp "out;$env:GUROBI_HOME\lib\gurobi.jar" Main --no-gurobi instances\instance1.txt > no-gurobi-instance1.csv
 ```
 
-Use `--no-gurobi` to run DP, greedy and FPTAS. For any mode, standard output contains the CSV rows and standard error shows progress.
+Use the corresponding input path and output filenames for each instance. The
+`--no-gurobi` mode runs DP, greedy and FPTAS. For any mode, standard output
+contains the CSV rows and standard error shows progress.
 
 Each output row gives the objective in the original item values, elapsed seconds and status. Runs that include DP also report the percentage gap from its exact optimum. In Gurobi-only mode that gap column is empty. Timings exclude reading the instance. The Gurobi CSV row uses the solver's optimization runtime. The console also shows the total elapsed time including model setup and cleanup.
 
@@ -23,5 +26,5 @@ Each output row gives the objective in the original item values, elapsed seconds
 
 - **Gurobi** uses one binary variable per item, maximizes total value and limits total weight to capacity. The time limit is 900 seconds per instance and the relative MIP gap is zero. A `TIME_LIMIT` row gives the best feasible objective found, if available. Gurobi can spend additional time finalizing the result. In a full run, the other methods then run on the same instance and the program moves on to the next file.
 - **Exact DP** keeps the best value for each capacity. It visits capacities in descending order for each item, so it uses each item at most once. It takes O(n × capacity) time and O(capacity) memory.
-- **Greedy** follows slide 20. It sorts by decreasing value per unit of weight and takes the consecutive items that fit. At the first item that is too heavy, it stops. Equal ratios use the later item first, as in the Python version.
+- **Greedy** follows slide 20. It sorts by decreasing value per unit of weight and takes the consecutive items that fit. At the first item that is too heavy, it stops. The benchmarked build gives priority to later items when ratios tie. The current source preserves input order for ties.
 - **FPTAS** follows slides 88–91 with ε = 10, 1, 0.1 and 0.01. It divides each value by K = max(1, ε × largest item value / n) and rounds down. Each item in the supplied instances fits on its own. When K is 1, integer values are exact. For each scaled profit, the DP keeps the lightest feasible packing and its original value in one row. This gives the objective directly and avoids storing a table for backtracking.
